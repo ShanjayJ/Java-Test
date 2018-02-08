@@ -1,0 +1,5 @@
+WinWaitActive("File Upload")
+ControlFocus ("File Upload","","Edit1")
+Sleep(2000)
+ControlSetText("File Upload","","Edit1",$CmdLine[1])
+ControlClick ("File Upload","","Button1")

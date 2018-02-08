@@ -1,0 +1,5 @@
+WinWaitActive("Authentication Required")
+Send("UserName")
+Send("{TAB}")
+Send("Password")
+Send("{ENTER}")

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG suite]">
+  <test name="TESTNG test(failed)">
+    <parameter name="srchkey" value="E"/>
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="srchwrd" value="Haskell"/>
+    <parameter name="url" value="http://jqueryui.com/"/>
+    <classes>
+      <class name="com.vmetry.webdrivers.SliderPrac">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.vmetry.webdrivers.SliderPrac -->
+    </classes>
+  </test> <!-- TESTNG test(failed) -->
+</suite> <!-- Failed suite [TestNG suite] -->
